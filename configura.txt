@@ -1,0 +1,35 @@
+## Instalaci√n de pipenv
+	# desde consola CMD como Administrador
+	pip install pipenv #(En caso de no tenerlo instalado)
+
+## Instalaci√n de django 3.2.8
+	pip install django==3.2.8
+	
+## Crear proyecto de django
+	django-admin startproject inmuebles
+
+## Ingresar al directorio del proyecto:
+	# cd inmuebles
+
+## Abrir el proyecto en editor de texto (vscode exp)
+	code .
+
+## Desde consola ubicarme dentro del proyecto de django para crear una app
+	python manage.py startapp inmuebleslist_app
+
+## Agregar la app dentro de settings.py
+	'inmuebleslist_app'
+
+## Para este tutorial realizar la migraci√n
+	python manage.py migrate
+
+## Crear el super usuario
+	python manage.py createsuperuser Beto
+
+## Mi usuario y mail de prueba
+	Beto
+	optimussky05@gmail.com
+	Prueba1234.
+
+## CREACION DE MODELO Y TABLA EN DJANGO ADMIN
+	:w
