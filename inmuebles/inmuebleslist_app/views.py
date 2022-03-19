@@ -15,7 +15,7 @@ def inmueble_list(request):
 def inmueble_detalle(request,pk):
     inmueble = Inmueble.objects.get(pk=pk)
     data = {
-            'direccion': inmueble.pais,
+            'direccion': inmueble.direccion,
             'pais': inmueble.pais,
             'imagen': inmueble.imagen,
             'active': inmueble.active,
